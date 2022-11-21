@@ -1,0 +1,77 @@
+body{
+  background-color:#10BFCC;
+}
+p,h1,h2,h3,h4,ul{
+  font-family:Oswlad, monospace;
+  color:#F5FFFA;
+}
+h1{
+  text-align:center;
+  position:static;
+}
+h2{
+  text-align:center;
+  text-decoration:underline;
+  position:static;
+}
+h3{
+  text-align:center;
+}
+h4{
+  text-align:center;
+  text-decoration:underline;
+  text-underline-offset:0.11em;
+  position:static;
+}
+#nav{
+  list-style-type:none;
+  text-align:center;
+  margin:0;
+  padding:10px;
+  width:24em;
+  height:10em;
+  margin-left:auto;
+  margin-right:auto;
+  top:10%;
+  font-size:1em;
+  border-radius:0.5em 0.5em;
+}
+#nav li{
+  display:inline-block;
+  background-color:#87CEFA;
+  border-style:solid;
+  padding:10px;
+}
+#resume{
+  background-color:#191970;
+  width:70%;
+  margin:auto;
+  margin-top:15px;
+  padding:1em;
+}
+#resume li{
+  font-style:italic;
+}
+#aboutme{
+  background-color:#191970;
+  width:70%;
+  margin:auto;
+  margin-top:15px;
+  padding:1em;
+}
+img{
+  width:100%;
+  float:inherit;
+}
+#musicfavs{
+  background-color:#191970;
+  width:70%;
+  margin:auto;
+  margin-top:15px;
+  padding:1em;
+}
+iframe{
+  width:100%;
+  border:none;
+  position:relative;
+}
