@@ -29,6 +29,6 @@ function initMap() {
   var infowindow = new google.maps.InfoWindow({
     content:""
   });
-  infowindow.open(map, marker);
+  infowindow.open(map, var);
 }
 window.initMap = initMap;
