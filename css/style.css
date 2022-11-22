@@ -75,3 +75,8 @@ iframe{
   border:none;
   position:relative;
 }
+#map{
+  position: absolute;
+  width: 70%;
+  height: 40%;
+}
