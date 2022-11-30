@@ -21,7 +21,7 @@ function initMap() {
   });
   
   var infowindow = new google.maps.InfoWindow({
-    content:""
+    content:"School"
   });
   infowindow.open(map, marker);
 }
