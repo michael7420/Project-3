@@ -42,26 +42,30 @@ h4{
   border-style:solid;
   padding:10px;
 }
-#resume{
-  background-color:#191970;
-  width:70%;
-  margin:auto;
-  margin-top:15px;
-  padding:1em;
+@media only screen and (min-width: 650px){
+  #resume{
+    background-color:#191970;
+    width:70%;
+    margin:auto;
+    margin-top:15px;
+    padding:1em;
+  }
+  #resume li{
+    font-style:italic;
+  }
 }
-#resume li{
-  font-style:italic;
-}
-#aboutme{
-  background-color:#191970;
-  width:70%;
-  margin:auto;
-  margin-top:15px;
-  padding:1em;
-}
-img{
-  width:100%;
-  float:inherit;
+@media only screen and (min-width: 500px){
+  #aboutme{
+    background-color:#191970;
+    width:70%;
+    margin:auto;
+    margin-top:15px;
+    padding:1em;
+  }
+  img{
+    width:100%;
+    float:inherit;
+  }
 }
 #musicfavs{
   background-color:#191970;
